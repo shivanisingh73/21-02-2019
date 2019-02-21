@@ -1,10 +1,10 @@
 var temperature = [10,20,30,40,50];
-
+//insert will add new temperatures
   function insert(temp){
     temperature.push(temp);
     console.log("after inserting new temperature=",temperature);
   }insert(10)
-  
+//get_max will show maximum temperature  
    function get_max()
    {
        var max,swap;
@@ -20,7 +20,7 @@ var temperature = [10,20,30,40,50];
        }
        console.log("returns max temperature=",max);
    }get_max()
-
+//get_min will show minimum temperature
    function get_min()
    {
        var min,swap;
@@ -36,7 +36,7 @@ var temperature = [10,20,30,40,50];
        }
        console.log("returns min temperature=",min);
    }get_min()
-
+//get_mean will show mean of all temperatures
    function get_mean(){
        var sum=0;
        var n=0;
@@ -49,7 +49,7 @@ var temperature = [10,20,30,40,50];
        mean=sum/n;
        console.log("returns mean of all temperatures=",mean);
    }get_mean()
-
+//get_mode will show mode of all temperatures
    function get_mode()
    {
        var maxCount=0;
